@@ -63,7 +63,7 @@ Video-Audio-Embedding-test/
 2. Run the main script:
 
 ```bash
-python main.py
+python test-encode.py
 ```
 
 ---
