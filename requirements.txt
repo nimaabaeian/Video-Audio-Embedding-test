@@ -1,0 +1,7 @@
+torch
+ffmpeg-python
+torchaudio
+opencv-python-headless
+numpy
+scikit-learn
+transformers
