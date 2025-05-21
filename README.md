@@ -25,12 +25,12 @@ Make sure your environment has these packages:
 
 ```txt
 torch
-torchaudio
-transformers>=4.30.0
 ffmpeg-python
-opencv-python
+torchaudio
+opencv-python-headless
 numpy
 scikit-learn
+transformers
 ````
 
 Install all dependencies using:
@@ -47,8 +47,8 @@ pip install -r requirements.txt
 Video-Audio-Embedding-test/
 ├── main.py                 # Main script
 ├── requirements.txt        # Dependency list
-├── lively.mp4              # Example lively scene (e.g., group talking)
-├── calm.mp4                # Example calm scene (e.g., quiet workspace)
+├── lively.mp4              # Example lively scene (group talking)
+├── calm.mp4                # Example calm scene (quiet workspace)
 ```
 
 ---
